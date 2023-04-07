@@ -99,4 +99,18 @@ body{
     #main-home .header-top{
         flex-direction: column;
     }
+
+    #main-home{
+        width: 100%;
+        min-height: 650px;
+    }
+    #main-home #banner-slider{
+        padding: 20px 0;
+    }
+    #main-home #banner-slider .owl-carousel .owl-nav button{
+        display: none;
+    }
+    #main-home #banner-slider .owl-carousel .owl-dots{
+        bottom: -1rem;
+    }
 }
