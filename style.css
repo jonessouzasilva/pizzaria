@@ -29,6 +29,12 @@ html,
 body{
     font-family: 'Poppins', sans-serif;
 }
+#main-home{
+    width: 100%;
+    min-height: 650px;
+    background-image: url(img/bg-home.jpg);
+    background-size: 100% 100%;
+}
 #main-home .header-top .item a{
     color: #000000;
 }
@@ -80,6 +86,9 @@ body{
 #main-home #banner-slider .owl-carousel .owl-dots button span{
     background-color: #c8c8c8;
     padding: 6px !important;
+}
+#main-home #banner-slider .owl-carousel .owl-dots button.active span{
+    background-color: #FF004D;
 }
 
 /*Responsive Style*/
