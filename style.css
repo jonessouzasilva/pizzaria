@@ -90,21 +90,12 @@ body{
 #main-home #banner-slider .owl-carousel .owl-dots button.active span{
     background-color: #FF004D;
 }
-header .footer{
+section .footer{
     text-align: center;
-    background-color: var(--sideBGColor);
-    width: 300px;
-    color: lightgray;
-    font-size: 14px;
-    letter-spacing: 0.6px;
-    padding: 15px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    transition: 0.4s;
-}
-header .footer p a{
-    color: var(--themeColor);
+    padding: 25px;
+    padding: var(--text-color);
+    font-size: 15px;
+    letter-spacing: 1px;
 }
 
 /*Responsive Style*/
