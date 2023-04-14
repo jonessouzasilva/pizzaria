@@ -92,8 +92,7 @@ body{
 }
 section .footer{
     text-align: center;
-    padding: 25px;
-    padding: var(--text-color);
+    padding: 10px;
     font-size: 15px;
     letter-spacing: 1px;
 }
